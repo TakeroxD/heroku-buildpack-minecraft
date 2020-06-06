@@ -26,6 +26,14 @@
     "AWS_SECRET_KEY": {
       "description": "The AWS secret key for the S3 Bucket",
       "required": false
+    },
+    "AWS_SYNC_INTERVAL": {
+      "description": "The AWS SYNC interval",
+      "required": false
+    },
+    "NGROK_OPTS": {
+      "description": "The NGROK config",
+      "required": false
     }
   },
   "buildpacks": [
